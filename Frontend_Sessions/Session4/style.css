@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+}
+
+.hero{
+    background-image: url("img/bread_container.jpeg");
+    background-size: cover;
+    background-position: center;
+    height:800px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: 25px;
+    left:25px;
+    width: 180px;
+}
+.container{
+text-align: center;
+color: white;
+padding-top:200px;
+
+}
+
+.navbar{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+
+.navbar li{
+    height: 40px;
+     display: inline-block;
+    
+    padding: 10px;
+    font-size: 16px;
+     color: white;
+}
+
+.container button {
+    padding: 15px 25px;
+    margin: 10px 5px;
+    border: none;
+    font-size: 15px;
+}
+
+.container button:first-of-type {
+    background-color: #8e7754;
+    color: white;
+}
+
+.container button:last-of-type {
+    background-color: white;
+    color: black;
+}
+
+.who-we-are{
+
+    width: 90%;
+    margin: auto;
+}
+.who-we-are img{
+    width: 45%;
+    float: left;
+}
+.who-we-are .text{
+
+    width: 45%;
+    float: right;
+    padding-top: 50px;
+
+}
+
+.who-we-are ul {
+    list-style: none;
+    padding: 0;
+}
+
+.who-we-are li {
+    margin: 15px 0;
+}
+
+.who-we-are li i {
+    margin-right: 15px;
+    color: #8e7754;
+    font-size: 20px;
+}
+
+
+.our-location {
+    width: 90%;
+    margin: 80px auto;
+    overflow: hidden;
+}
+
+.location-text {
+    width: 45%;
+    float: left;
+    padding-top: 50px;
+}
+
+.location-image {
+    width: 45%;
+    float: right;
+}
+
+.location-image img {
+    width: 100%;
+    display: block;
+}
+
+.location-text h2 {
+    font-size: 30px;
+    color: #555;
+}
+
+.location-text p {
+    color: #777;
+    line-height: 1.8;
+}
+
+
+.our-baking {
+    width: 90%;
+    margin: 80px auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.baking-header {
+    margin-bottom: 40px;
+}
+
+.baking-header h2 {
+    font-size: 30px;
+    color: #555;
+}
+
+.baking-header p {
+    color: #777;
+}
+
+.baking-item {
+    width: 30%;
+    float: left;
+    margin: 0 1.5%;
+}
+
+.baking-item img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+.baking-item h3 {
+    color: #555;
+}
+
+.baking-item p {
+    color: #777;
+    line-height: 1.8;
+}
+
+
+.contact {
+    background-color: #f5f5f5;
+    padding: 80px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    width: 45%;
+}
+
+.contact iframe {
+    width: 50%;
+    height: 450px;
+    border: 0;
+}
+
+.contact-info h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.contact-info p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.contact-info i {
+    color: #8e7754;
+    margin-right: 10px;
+}
+
+
+
+
+.footer {
+    background-color: #403d38;
+    color: white;
+    padding: 60px 10%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    width: 23%;
+}
+
+.footer-item h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-item p {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+
+
+
+.bottom-footer {
+    background-color: #353330;
+    text-align: center;
+    padding: 50px 10px 30px;
+    color: #777;
+}
+
+.bottom-footer img {
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+.bottom-footer p {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.social-icons i {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background-color: #484642;
+    margin: 0 5px;
+    font-size: 15px;
+}
